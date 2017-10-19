@@ -1,0 +1,19 @@
+{
+  "name": "website-using-express",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bootstrap": "latest",
+    "express": "latest",
+    "geolocation-marker": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "4.6.0",
+    "npm": "2.15.9"
+  }
+}
