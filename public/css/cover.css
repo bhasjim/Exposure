@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Doppio+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+
+
+.hundred {
+  height: 100%;
+}
+
+.button-group {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(75, 205, 242); /* Green */
+}
+
+.button-group:focus {
+    background-color: rgb(75, 205, 242); 
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(75, 205, 242); /* Green */
+    outline: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-header .exposure {
+  font-size: 30px;
+  color: #00c7ff;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-header .exposure:hover {
+  color: #2d8da8;
+}
+.navbar-header .exposure:focus {
+  color: #00c7ff;
+}
+
+
+header {
+  background-image: url('../images/camerabackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+  height: 300px;
+}
+header .intro-text {
+  padding-top: 15%;
+  padding-bottom: 20%;
+}
+header .intro-text .title-heading {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .slogan-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media(min-width:768px) {
+    header {
+        .intro-text {
+            padding-top: 300px;
+            padding-bottom: 200px;
+            .title-heading {
+                .serif-font;
+                font-style: italic;
+                font-size: 40px;
+                line-height: 40px;
+                margin-bottom: 25px;
+            }
+            .title-slogan {
+                .heading-font;
+                font-weight: 700;
+                font-size: 75px;
+                line-height: 75px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
