@@ -1,2 +1,2 @@
-# guodaddy
-hello
+# Exposure
+To start, just run 'gulp'

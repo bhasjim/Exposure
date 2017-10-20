@@ -7,6 +7,8 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 app.use(express.static('js'));
+app.use(express.static('build'));
+
 
 
 app.use(function (req,res,next) {
@@ -47,5 +49,4 @@ app.use("/",router);
 
 
 app.listen(PORT,function(){
-  console.log("Live at Port 3000");
 });
