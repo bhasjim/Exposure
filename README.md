@@ -2,4 +2,4 @@
 To start, just run 'gulp'
 
 
-https://appexposure.herokuapp.com/
+https://bahariexposure.herokuapp.com/
