@@ -44,9 +44,9 @@ body {
 .circle.shrink {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
-    transition: all 2s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 
 
     -webkit-transform: scale( 0 );
@@ -84,7 +84,22 @@ body {
   opacity: 0;
   display:inline-block;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
 
+.cs-loader-inner-click {
+  transform: translateY(-50%);
+  top: 60%;
+  position: absolute;
+  width: calc(100%);
+  color: #FFF;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.cs-loader-inner-click label {
+  font-size: 20px;
+  display:inline-block;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 @keyframes lol {

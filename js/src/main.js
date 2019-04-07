@@ -1,9 +1,7 @@
-
 $(document).ready(function() {
   initMap();
 });
 
-console.log("come on");
 /*
  * Clears the loading screen
  */
@@ -14,12 +12,7 @@ $("#cs-loader").on('click', function(){
 
         var coverScreen = document.getElementById('cs-loader');
         coverScreen.parentNode.removeChild(coverScreen);
-        loadingScreen=false;
 
-
-        // setTimeout(function() {
-        //     coverCircle.parentNode.removeChild(coverCircle);
-        // }, 2000);
 });
 
 
